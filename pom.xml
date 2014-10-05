@@ -27,15 +27,16 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
-    <organization>
-        <name>Wakaleo Consulting</name>
-        <url>http://www.wakaleo.com</url>
-    </organization>
     <developers>
         <developer>
             <id>johnsmart</id>
             <name>John Ferguson Smart</name>
             <email>john.smart@wakaleo.com</email>
+        </developer>
+        <developer>
+            <id>rdanilin</id>
+            <name>Roman Danilin</name>
+            <email>roman_danilin@mail.ru</email>
         </developer>
     </developers>
     <issueManagement>
@@ -47,9 +48,9 @@
         <url>http://www.wakaleo-labs.com/jenkins/view/maven-schemaspy-plugin</url>
     </ciManagement>
     <scm>
-        <connection>scm:git:ssh://github.com/wakaleo/${project.artifactId}.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/wakaleo/${project.artifactId}.git</developerConnection>
-        <url>http://github.com/wakaleo/${project.artifactId}</url>
+        <connection>scm:git:ssh://github.com/rdanilin/${project.artifactId}.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/rdanilin/${project.artifactId}.git</developerConnection>
+        <url>http://github.com/rdanilin/${project.artifactId}</url>
     </scm>
     <dependencies>
         <dependency>
