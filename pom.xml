@@ -1,4 +1,3 @@
-
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
@@ -9,7 +8,7 @@
   <groupId>com.wakaleo.schemaspy</groupId>
   <artifactId>maven-schemaspy-plugin</artifactId>
   <packaging>maven-plugin</packaging>
-  <version>5.0.4-SNAPSHOT</version>
+  <version>5.1.0-SNAPSHOT</version>
   <inceptionYear>2007</inceptionYear>
   <name>Maven SchemaSpy Plugin</name>
   <url>https://github.com/wakaleo/maven-schemaspy-plugin</url>
@@ -72,7 +71,7 @@
       <artifactId>maven-plugin-testing-harness</artifactId>
       <version>1.1</version>
     </dependency>
-        <!-- Database dependencies -->
+    <!-- Database dependencies -->
     <dependency>
       <groupId>org.apache.derby</groupId>
       <artifactId>derby</artifactId>
@@ -106,13 +105,7 @@
     <!--
     Oracle are not open
     
-    <dependency>
-      <groupId>com.oracle</groupId>
-      <artifactId>ojdbc</artifactId>
-      <version>11.2.0.2.0</version>
-      <scope>test</scope>
-    </dependency>
--->
+    <dependency><groupId>com.oracle</groupId><artifactId>ojdbc</artifactId><version>11.2.0.2.0</version><scope>test</scope></dependency>-->
     <dependency>
       <groupId>org.hamcrest</groupId>
       <artifactId>hamcrest-all</artifactId>
@@ -130,7 +123,6 @@
           <target>1.5</target>
         </configuration>
       </plugin>
-
       <!-- Define the Main class of the output JAR file -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -147,7 +139,6 @@
           </archive>
         </configuration>
       </plugin>
-
     </plugins>
     <extensions>
       <extension>
@@ -157,7 +148,6 @@
       </extension>
     </extensions>
   </build>
-
   <profiles>
     <profile>
       <id>in-memory-tests</id>
@@ -309,7 +299,5 @@
         </plugins>
       </build>
     </profile>
-        
-
   </profiles>
 </project>
